@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyCzcUnkn-7BX-8aNzTj055N-ZvVIYd6e4Y",
+    authDomain: "ninja-firestore-tutorial-356cb.firebaseapp.com",
+    databaseURL: "https://ninja-firestore-tutorial-356cb.firebaseio.com",
+    projectId: "ninja-firestore-tutorial-356cb",
+    storageBucket: "ninja-firestore-tutorial-356cb.appspot.com",
+    messagingSenderId: "871420705151",
+    appId: "1:871420705151:web:4cf33636e256af1b44c24a"
+  }
 };
 
 /*
