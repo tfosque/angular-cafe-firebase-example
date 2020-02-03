@@ -75,7 +75,7 @@ export class AppComponent implements OnInit {
   }
 
   onSubmit() {
-    // e.preventDefault();
+    // e.preventDefault(); is implemented by angular ngSubmit
     this.db.collection("cafes").add({
       name: this.myForm.value.name,
       city: this.myForm.value.city
